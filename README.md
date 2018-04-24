@@ -6,6 +6,7 @@ This program shows a visualization of the mathematical pendulum. It allows the a
 - pendulum length
 - amplitude
 - gravity
+
 for the underlying mathematical equation of motion as well as other settings for the visualization. It provides different pendulum types and different approximations for the equation of motion for choice. 
 
 *Read this in [German](README.de.md) / Lesen Sie dies auf [Deutsch](README.de.md)*
@@ -34,11 +35,11 @@ The **radius** of the pendulums ball and a **zoom factor** can also be chosen, b
 
 Since the parameters pendulums length, amplitude and gravity have an impact on the pendulums motion, they can not be altered as long as the pendulum is moving. All other parameters can be changed at any time.
 
-There are 2 pendulum types available: 
+There are **2 pendulum types** available: 
 1. **Simple wire pendulum** 
 2. **Newton pendulum with 5 balls**
 
-Also there are two different approximations for the mathematical equation of motion available:
+Also there are **2 different approximations for the mathematical equation of motion** available:
 1. **Small angle approximation**, based on a simplified differential equation. This approximation is rather inaccurate for angles > 20°
 2. **Taylor approximation in 6st order**, which is a clearly more accurate approximation
 If the common wire pendulum is chosen, both approximations can be shown in two different pendulums at the same time to directly compare the difference in motion. To distinguish them, they can be shown in different colors. 
