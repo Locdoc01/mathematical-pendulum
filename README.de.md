@@ -72,7 +72,7 @@ ist lösbar. Dazu wird eine von der Zeit abhängige Funktion gesucht, die mit de
 gefunden mit der Periodendauer
 
 ![Gleichung (4)](https://i.imgur.com/jPOPgf3.png)  
-(Weitere Informationen zur mathematischen Herleitung sind unter [https://lp.uni-goettingen.de/get/text/7371](https://lp.uni-goettingen.de/get/text/7371) zu finden). 
+(Weitere Informationen zur mathematischen Herleitung sind unter [https://lp.uni-goettingen.de/get/text/7371](https://lp.uni-goettingen.de/get/text/7371) zu finden.)  
 Diese Lösung wird im Programm als Pendelfunktion mit der Bezeichnung **Kleinwinkelnäherung** verwendet. Sie ist jedoch für Winkel > 20° eher ungenau.
 
 Der zweite Lösungsansatz bietet eine exaktere Lösung. Hierbei wird von der originalen Bewegungsgleichung ohne Vereinfachung ausgegangen. Für die Periodendauer T erhält man dann die Lösung
