@@ -6,6 +6,7 @@ Das Programm zeigt eine Visualisierung des Mathematischen Pendels. Es erlaubt di
 - Pendellänge
 - Auslenkung
 - Schwerkraft
+
 sowie weiterer Einstellungsmöglichkeiten für die Visualisierung. Es stellt verschiedene Pendelarten sowie Approximationen der Bewegungsgleichung zur Auswahl.
 
 *Lesen Sie dies auf [Englisch](README.md) / Read this in [Endlish](README.md)*
@@ -45,7 +46,7 @@ Falls das normale Fadenpendel ausgewählt ist, können beide Approximationen in 
 
 Das Pendel kann durch den **Start/Stopp-Button** gestartet und gestoppt werden. Alternativ kann es mithilfe der Mouse gestarted und gestoppt werden, wenn die Option "Maus-Direktstart" aktiviert ist.
 
-Die folgenden Optionen sind verfügbar:
+Die folgenden **Optionen** sind verfügbar:
 - **Pendelfaden sichtbar**: Falls deaktiviert, ist der Pendelfaden unsichtbar
 - **Skala anzeigen**: Falls aktiviert, wird eine Skala auf der rechten Seite des Visualisierungsbereichs angezeigt
 - **Werte anzeigen**: Falls aktiviert, wird die Laufzeit sowie die Werte für aktuelle Koordinaten, Winkel, Periode und Anzahl der Nulldurchgänge beider Approximationen angezeigt
