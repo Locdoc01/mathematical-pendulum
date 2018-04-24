@@ -9,7 +9,7 @@ Das Programm zeigt eine Visualisierung des Mathematischen Pendels. Es erlaubt di
 
 sowie weiterer Einstellungsmöglichkeiten für die Visualisierung. Es stellt verschiedene Pendelarten sowie Approximationen der Bewegungsgleichung zur Auswahl.
 
-*Lesen Sie dies auf [Englisch](README.md) / Read this in [Endlish](README.md)*
+*Lesen Sie dies auf [Englisch](README.md) / Read this in [English](README.md)*
 
 ## Screenshots
 
