@@ -60,3 +60,27 @@ The following **options (Optionen)** are available:
 - **instant start by mouse (Maus-Direktstart)**: if activated, the pendulum starts instantly after it got dragged by the mouse. It will stop by just clicking on the visualization area. (The start/stop button will keep its functionality)
 
 ## Mathematical Background
+
+The differential equation, which describes the pendulums motion is given by
+
+![Equation (1)](https://i.imgur.com/MCq7KrC.png)  
+In this equation appears the amplitude angle φ at the time t as well as its second time derivative φ̈ , which describes the angular acceleration. Now to simulate the pendulums motion, the differential equation has to be solved. To achieve that, two approaches were pursued.  
+The first one is to simplify the matter by presuming, that for small angles applies sin(φ) ≈ φ. The resulting simplified differential equation 
+
+![Equation (2)](https://i.imgur.com/4UailUM.png)  
+is solvable. For that a time-dependant function has to be found, which results in its second derivative, if multiplied by the factor −g/l. As a solution the equation 
+
+![Equation (3)](https://i.imgur.com/pen3hT3.png)  
+is found with the periodic time
+
+![Equation (4)](https://i.imgur.com/jPOPgf3.png)  
+(Further Information about the mathematical derivation can be found at [https://lp.uni-goettingen.de/get/text/7371](https://lp.uni-goettingen.de/get/text/7371).)  
+This solution is applied in the program as pendulum function with the notation **Small angle approximation (Kleinwinkelnäherung)**. However it is rather unprecise for angles > 20°.
+
+The second approach provides a more accurate solution. It comes from the original equation of motion without simplifications. The resulting solution for the periodic time T is
+
+![Equation (5)](https://i.imgur.com/uZhqlaT.png)  
+This integral is not elementary solvable, but it can be approximated by the Taylor approximation. Performed to the 6st degree it leads to the approximated periodic time of 
+
+![Equation (6)](https://i.imgur.com/yuTZzyl.png)  
+This solution is applied in the program as pendulum function with the notation **Taylor approximation (Taylornäherung)**.
