@@ -11,6 +11,11 @@ sowie weiterer Einstellungsmöglichkeiten für die Visualisierung. Es stellt ver
 
 *Lesen Sie dies auf [Englisch](README.md) / Read this in [English](README.md)*
 
+## Inhalt
+  - [Screenshots](#screenshots)
+  - [Bedienung](#bedienung)
+  - [Mathematischer Hintergrund](#mathematischer-hintergrund)
+
 ## Screenshots
 
 ### Einfaches Pendel
@@ -53,3 +58,28 @@ Die folgenden **Optionen** sind verfügbar:
 - **Maus-Direktstart**: Falls aktiviert, startet das Pendel direkt, wenn es mit der Maus gezogen wurde. Durch Klicken auf den Visualisierungsbereich wird es wieder gestoppt (Der Start/Stopp-Button behält seine Funktionalität)
 
 ## Mathematischer Hintergrund
+
+Die Differentialgleichung, die die Bewegung des Pendels beschreibt, ist gegeben durch
+
+![Gleichung (1)](https://i.imgur.com/MCq7KrC.png)  
+Hier taucht der Auslenkungswinkel φ zum Zeitpunkt t sowie seine zweite Zeitableitung φ̈ auf, welche die Winkelbeschleunigung beschreibt. Um die Bewegung des Pendels nun zu simulieren, muss die Differentialgleichung gelöst werden. Hierfür wurden zwei Ansätze verfolgt.
+Beim ersten Ansatz wird zur Vereinfachung angenommen, dass für kleine Winkel sin(φ) ≈ φ ist. Die daraus resultierende vereinfachte Differentialgleichung
+
+![Gleichung (2)](https://i.imgur.com/4UailUM.png)  
+ist lösbar. Dazu wird eine von der Zeit abhängige Funktion gesucht, die mit dem Vorfaktor −g/l multipliziert ihre zweite Ableitung ergibt. Als Lösung wird die Funktion
+
+![Gleichung (3)](https://i.imgur.com/pen3hT3.png)  
+gefunden mit der Periodendauer
+
+![Gleichung (4)](https://i.imgur.com/jPOPgf3.png)  
+(Weitere Informationen zur mathematischen Herleitung sind unter [https://lp.uni-goettingen.de/get/text/7371](https://lp.uni-goettingen.de/get/text/7371) zu finden). 
+Diese Lösung wird im Programm als Pendelfunktion mit der Bezeichnung **Kleinwinkelnäherung** verwendet. Sie ist jedoch für Winkel > 20° eher ungenau.
+
+Der zweite Lösungsansatz bietet eine exaktere Lösung. Hierbei wird von der originalen Bewegungsgleichung ohne Vereinfachung ausgegangen. Für die Periodendauer T erhält man dann die Lösung
+
+![Gleichung (5)](https://i.imgur.com/uZhqlaT.png)  
+Dieses Integral ist nicht elementar lösbar, kann aber durch eine Taylorapproximation angenähert werden. Führt man diese bis zum Grad 6 durch, kommt man auf eine angenäherte Periodendauer von
+
+![Gleichung (6)](https://i.imgur.com/yuTZzyl.png)  
+Diese Lösung wird im Programm als Pendelfunktion mit der Bezeichnung **Taylornäherung** verwendet.
+
