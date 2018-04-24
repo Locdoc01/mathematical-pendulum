@@ -46,7 +46,7 @@ If the common wire pendulum is chosen, both approximations can be shown in two d
 
 The pendulum can be started and stopped by the **start/stop button**. Alternatively it can be started and stopped by the mouse, if the option "instant start by mouse" is activated.
 
-The following options are available:
+The following **options** are available:
 - **pendulum wire visible**: if deactivated, the pendulum wire will be invisible
 - **show scale**: If activated, a scale will be shown at the right side of the visualization area
 - **show values**: If activated, there will be shown the run-time, as well as the values of current coordinates, angle, period and number of zero passes for both approximations
