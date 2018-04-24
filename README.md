@@ -1,6 +1,6 @@
-# Visualization of the mathematical pendulum
+# Visualization of the Mathematical Pendulum
 
-## Purpose of the programm
+## Purpose of the Programm
 
 This program shows a visualization of the mathematical pendulum. It allows the adjustment of the parameters
 - pendulum length
