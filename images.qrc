@@ -1,0 +1,6 @@
+<!DOCTYPE RCC><RCC version="1.0">
+	<qresource>
+		<file>images/play40.svg</file>
+		<file>images/stop48.svg</file>
+	</qresource>
+</RCC>
