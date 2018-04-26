@@ -262,7 +262,7 @@ void MainWindow::startButtonSetText(bool b)
 }
 
 //If start button was pressed, some controls get disabled and the timer gets started.
-//If stop button was pressed, the controls get enabled, the timer gets stopped and nessecary values for the equation of motion are set to zero.
+//If stop button was pressed, the controls get enabled, the timer gets stopped and necessary values for the equation of motion are set to zero.
 void MainWindow::timerStart(bool buttonStart)
 {
     ui->framePendulumLength->setDisabled(buttonStart);
