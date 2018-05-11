@@ -2,12 +2,12 @@
 
 ## Zweck des Programms
 
-Das Programm zeigt eine Visualisierung des Mathematischen Pendels. Es erlaubt die Einstellung der Parameter für die Bewegungsgleichung
+Das Programm zeigt eine Visualisierung des Mathematischen Pendels. Es erlaubt die Einstellung der Parameter
 - Pendellänge
 - Auslenkung
 - Schwerkraft
 
-sowie weiterer Einstellungsmöglichkeiten für die Visualisierung. Es stellt verschiedene Pendelarten sowie Approximationen der Bewegungsgleichung zur Auswahl.
+für die Bewegungsgleichung und bietet darüberhinaus zahlreiche weitere Einstellungsmöglichkeiten für die Visualisierung. Es sind verschiedene Pendelarten sowie alternative Approximationen der Bewegungsgleichung verfügbar.
 
 *Lesen Sie dies auf [Englisch](README.md) / Read this in [English](README.md)*
 
