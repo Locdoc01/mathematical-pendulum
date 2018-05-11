@@ -7,7 +7,7 @@ This program shows a visualization of the mathematical pendulum. It allows the a
 - amplitude
 - gravity
 
-for the underlying mathematical equation of motion as well as other settings for the visualization. It provides different pendulum types and different approximations for the equation of motion for choice. 
+for the underlying mathematical equation of motion and offers beyond that numerous other settings for the visualization. It provides different pendulum types as well as alternative approximations for the equation of motion for choice. 
 
 *Read this in [German](README.de.md) / Lesen Sie dies auf [Deutsch](README.de.md)*
 
